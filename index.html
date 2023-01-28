@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script defer src="/app.js"></script>
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
@@ -31,27 +32,27 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p><i class="fa fa-briefcase fa-fw margin-right large text-teal"></i>Developer</p>
           <p><i class="fa fa-home fa-fw margin-right large text-teal"></i>Misiones, AR</p>
           <p class="small"><i class="fa fa-envelope fa-fw margin-right large text-teal"></i>b.martindaniel@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw margin-right large text-teal"></i>+54-3765-150855</p>
+          <p><i class="fa fa-phone fa-fw margin-right large text-teal"></i>+54-3765-150855</p>          
           <hr>
 
           <p class="large"><b><i class="fa fa-asterisk fa-fw margin-right text-teal"></i>Skills</b></p>
           <p>Java</p>
           <div class="light-grey round-xlarge small">
-            <div class="container center round-xlarge teal" style="width:80%">80%</div>
+            <div class="container center round-xlarge teal hidden" style="width:80%">80%</div>
           </div>
           <p>AWS</p>
           <div class="light-grey round-xlarge small">
-            <div class="container center round-xlarge teal" style="width:70%">
+            <div class="container center round-xlarge teal hidden" style="width:70%">
               <div class="center text-white">70%</div>
             </div>
           </div>
           <p>Javascript</p>
           <div class="light-grey round-xlarge small">
-            <div class="container center round-xlarge teal" style="width:75%">75%</div>
+            <div class="container center round-xlarge teal hidden" style="width:75%">75%</div>
           </div>
           <p>Kotlin</p>
           <div class="light-grey round-xlarge small">
-            <div class="container center round-xlarge teal" style="width:40%">40%</div>
+            <div class="container center round-xlarge teal hidden" style="width:40%">40%</div>
           </div>
           <br>
 
@@ -79,23 +80,23 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <div class="twothird">
     
       <div class="container card white margin-bottom">
-        <h2 class="text-grey padding-16"><i class="fa fa-suitcase fa-fw margin-right xxlarge text-teal"></i>Work Experience</h2>
+        <h2 class="text-grey padding-16"><i class="fa fa-suitcase fa-fw margin-right xxlarge text-teal "></i>Experiencia</h2>
         <div class="container">
           <h5 class="opacity"><b>Full-Stack Developer</b></h5>
           <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Dic 2022 - <span class="tag teal round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <p class="hidden">Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
           <hr>
         </div>
         <div class="container">
           <h5 class="opacity"><b>Web Developer</b></h5>
           <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Mar 2020</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <p class="hidden">Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
           <hr>
         </div>
         <div class="container">
           <h5 class="opacity"><b>Diseñador</b></h5>
           <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Jun 2019</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+          <p class="hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
         </div>
       </div>
 
@@ -104,19 +105,19 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="container">
           <h5 class="opacity"><b>Amazon Web Services</b></h5>
           <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>Actualidad</h6>
-          <p>Infraestructura en la nube</p>
+          <p class="hidden">Infraestructura en la nube</p>
           <hr>
         </div>
         <div class="container">
           <h5 class="opacity"><b>PoloTic</b></h5>
           <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>2022</h6>
-          <p>Desarrollo Full-Stack</p>
+          <p class="hidden">Desarrollo Full-Stack</p>
           <hr>
         </div>
         <div class="container">
           <h5 class="opacity"><b>UNaM</b></h5>
           <h6 class="text-teal"><i class="fa fa-calendar fa-fw margin-right"></i>2020</h6>
-          <p>Bachelor Degree</p><br>
+          <p class="hidden">Bachelor Degree</p><br>
         </div>
       </div>
 
@@ -130,7 +131,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </div>
 
 <footer class="container teal center margin-top">
-  <p>Encontrame en las redes.</p>
+    <div id="text"></div><div id="cursor"></div>
   <a href="https://www.facebook.com/martindanielb/"><i class="fa fa-facebook-official hover-opacity"></i></a>
   <a href="https://www.instagram.com/martindaniel.27/"><i class="fa fa-instagram hover-opacity"></i></a>
   <a href="https://twitter.com/bmartindaniel27"><i class="fa fa-twitter hover-opacity"></i></a>
